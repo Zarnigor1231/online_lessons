@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "resolveJsonModule": true,
+  "esModuleInterop": true,
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "crypt": "^0.0.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.1",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.11.1",
+    "sharp": "^0.32.4",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  }
+}

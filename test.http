@@ -1,0 +1,58 @@
+# auth
+
+POST  http://localhost:3001/register
+Content-Type: application/json
+
+{
+    "user_name":"Zarnigor",
+    "email":"zarnigor@gmail.com",
+    "password":"121212"
+}
+
+
+###
+
+POST  http://localhost:3001/login
+Content-Type: application/json
+
+{
+    "email":"zarnigor@gmail.com",
+    "password":"121212"
+}
+
+
+# catgeory
+###
+
+POST  http://localhost:3001/category
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Inphcm5pZ29yQGdtYWlsLmNvbSIsImxvZ2luIjoibG9naW4iLCJpYXQiOjE2OTAwMzU2NTAsImV4cCI6MTY5MDY0MDQ1MH0.VrcCabBgajKR2LtyZLX1G44qncZ1z19DX3m12xhc19Q
+
+{
+    "sap_name":"men111"
+}
+
+###
+
+PUT  http://localhost:3001/category/582c64ac-9161-44d9-8092-126f11a1203b
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjFAZ21haWwuY29tIiwibG9naW4iOiJsb2dpbiIsImlhdCI6MTY5MDAxOTY5NiwiZXhwIjoxNjkwNjI0NDk2fQ.WFXkTyY3OkyMKyZSqWBPrd0Xp6VCadQd3vmRI5l_a60
+
+{
+    "sap_name":"Dasturlash11"
+}
+
+###
+
+DELETE   http://localhost:3001/category/582c64ac-9161-44d9-8092-126f11a1203b
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Inphcm5pZ29yQGdtYWlsLmNvbSIsImxvZ2luIjoibG9naW4iLCJpYXQiOjE2OTAwMzU2NTAsImV4cCI6MTY5MDY0MDQ1MH0.VrcCabBgajKR2LtyZLX1G44qncZ1z19DX3m12xhc19Q
+
+
+###
+POST  http://localhost:3001/video
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Inphcm5pZ29yQGdtYWlsLmNvbSIsImxvZ2luIjoibG9naW4iLCJpYXQiOjE2OTAwMzU2NTAsImV4cCI6MTY5MDY0MDQ1MH0.VrcCabBgajKR2LtyZLX1G44qncZ1z19DX3m12xhc19Q
+
+{
+    "video_name":"/videos/"
+}
